@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: spreestore_production
-  username: iamninja
+  database: spreestore
+  username: tardis
   password: <%= ENV['SPREESTORE_DATABASE_PASSWORD'] %>
